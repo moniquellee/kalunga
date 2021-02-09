@@ -171,3 +171,14 @@ img.caixa-presente {
     }
 
 }
+@media (max-width: 400px){
+    img.caixa-tampa {
+        position: absolute;
+        transition: 0.3s;
+        transform: translateX(50%);
+        left: -61px;
+    }
+    .padding-top {
+        padding-top: 45px;
+    }
+}
